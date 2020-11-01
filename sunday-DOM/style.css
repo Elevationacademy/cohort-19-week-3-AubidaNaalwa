@@ -34,3 +34,13 @@ ul {
     text-align: center;
    color: rgb(149, 163, 19);
 }
+
+#container{
+  position: absolute;
+  width: 500px;
+  display: block;
+  left:35%;
+  margin: 0;
+  padding: 0;
+  
+}
