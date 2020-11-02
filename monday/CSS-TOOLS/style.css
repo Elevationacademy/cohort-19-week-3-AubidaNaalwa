@@ -1,0 +1,97 @@
+#chat{
+  height: 100vh;
+  max-width: 100%;
+  display: grid;
+  grid-template-areas: 
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f s s s s s s s s s"
+ "f i i i i i i i i i";
+}
+
+#friends{
+  grid-area: f;
+  display: grid;
+  align-items: center;
+  background-color: purple;
+  grid-template-rows: 0fr;
+  
+}
+
+
+
+#input{
+  grid-area: i;
+  background-color: mintcream;
+  display: grid;
+  grid-template-columns: 10fr 0.5fr;
+  background-color: lightgreen;
+  align-content: center;
+}
+#friends > p{
+  background-color: plum;
+}
+
+#friends > h3{
+
+  background-color: plum;
+}
+.right{
+ 
+ padding-left: 80%;
+ padding-right: 0%;
+ align-items: flex-end;
+}
+#chatbox{
+  grid-area: s;
+  background-color: rgb(255, 255, 255, 0.671);
+  display: grid;
+gap:10fr;
+  grid-template-rows: repeat(5,1fr) ;
+}
+.left{
+  margin-left: 0%;
+  padding-right: 0%;
+  align-items: flex-start;
+  
+}
+.text-container{
+  width:20%;
+  display: grid;
+  
+
+  grid-template-areas:"text  time";
+  
+
+}
+
+.text{
+  grid-area: text;
+  margin-right: 0%;
+  background-color: green;
+  
+}
+.time{
+  grid-area: time;
+  background-color: green;
+
+  
+
+}
+#send{
+  padding-left: 5%;
+}
