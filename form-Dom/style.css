@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: rgb(255, 255, 255);
+    background-color: #5212ca;
+  }
+
+  body {
+    background-image: url("https://wallpaperaccess.com/full/766858.jpg");
+    background-repeat: repeat;
+   
+    text-align: center;
+   color: rgb(149, 163, 19);
+}
+
+#container{
+  top:150px;
+  position: absolute;
+  width: 500px;
+  display: inline;
+  left:35%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#addingInfo{
+top:100px;
+background-color: dodgerblue;
+width: 400px;
+position: relative;
+text-align: left;
+display: inline-block ;
+padding: 20px;
+margin: 10px;
+border-radius: 3%;
+background-color: #3CBC8D;
+color: brown;
+font-size: large;
+font-weight: 1000;
+
+}
+#Birthday{
+margin-left:60px;
+
+}
+
+#submit{
+margin-left :300px;
+display: inline;
+width: 100px;
+
+}
