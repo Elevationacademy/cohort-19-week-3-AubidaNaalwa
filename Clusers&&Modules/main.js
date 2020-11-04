@@ -7,7 +7,7 @@ const StringFormatter = function () {
     const skewerCase = (str) => {
         console.log(str.split(' ').join('-'));
     }
-    return { capitalizeFirst: capitalizeFirst, skewerCase: skewerCase }
+    return { capitalizeFirst, skewerCase }
 
 }
 
