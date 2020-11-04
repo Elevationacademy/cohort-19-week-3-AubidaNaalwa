@@ -1,0 +1,75 @@
+body{
+    
+    border: 0px;
+}
+#container{
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+}
+
+.grid-item{
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#grid-head{
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+
+#grid-Twit{
+   display: grid;
+   grid-template-columns: 7fr 3fr;
+   grid-gap: 3rem 3rem;
+ 
+
+    
+}
+
+#text-input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 100%;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#twitbtn{  
+   background-color: blue;
+   color: black;
+   height: 100%;
+   float: left;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div#twitbtn.grid-item{
+    background-color: rgb(56, 55, 138);
+    text-align: center;
+   
+}
+
+#grid-posts{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem 2rem;
+   
+    
+}
+.post{
+    background: rgb(146, 55, 189);
+    padding: 2%;
+    border-radius: 1ch;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+
+
